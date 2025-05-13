@@ -1,0 +1,15 @@
+{
+  "name": "highlightjs-xbase",
+  "version": "1.0.0",
+  "description": "Suporte à linguagem xBase (Clipper/Harbour) para Highlight.js",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Anderson Cardoso Silva",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^11.11.1"
+  }
+}

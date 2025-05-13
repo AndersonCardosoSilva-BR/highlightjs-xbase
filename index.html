@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Highlight.js com xBase</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+</head>
+<body>
+<pre><code class="language-xbase">
+FUNCTION Hello()
+   LOCAL x := "Olá"
+   ? x
+RETURN NIL
+</code></pre>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script type="module">
+  import xbase from './xbase.js';
+  hljs.registerLanguage('xbase', xbase);
+  hljs.highlightAll();
+</script>
+</body>
+</html>
